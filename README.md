@@ -5,7 +5,8 @@ Ya know... it's my spacemacs config
 `sudo add-apt-repository ppa:kelleyk/emacs`  
 `sudo apt-get update`  
 `sudo apt install emacs26`
-1. Clone the Spacemacs develop branch using `git clone -b develop https://github.com/syl20bnr/spacemacs.git ~/.emacs.d`
+1. Clone the Spacemacs develop branch using  
+`git clone -b develop https://github.com/syl20bnr/spacemacs.git ~/.emacs.d`
 1. Copy the `.spacemacs` file from this repo as `~/.spacemacs`
 1. Do some stuff to enable extentions that are not readily available spacemacs layers
     1. emms  
