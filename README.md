@@ -4,7 +4,7 @@ Ya know... it's my spacemacs config
 1. Install emacs 26 or later
 1. Clone the Spacemacs develop branch using `git clone -b develop https://github.com/syl20bnr/spacemacs.git ~/.emacs.d`
 1. Copy the `.spacemacs` file from this repo as `~/.spacemacs`
-1. Do some stuff to enable non-spacemacs-supported extentions
+1. Do some stuff to enable extentions that are not readily available spacemacs layers
     1. emms  
     `mkdir ~/.emacs.d/private/emms`  
     `cd ~/.emacs.d/private/emms`  
