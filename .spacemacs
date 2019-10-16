@@ -108,7 +108,7 @@ This function should only modify configuration layer settings."
      ;; Tools
      ;;;;;;;;
      (shell :variables
-            shell-default-shell 'eshell
+            shell-default-shell 'ansi-term
             shell-default-position 'bottom
             shell-default-height 30)
 
@@ -553,7 +553,7 @@ before packages are loaded."
   ;; may need to set browse-url-generic-program to google-chrome-stable
   (setq browse-url-browser-function 'browse-url-generic
         engine/browser-function 'browse-url-generic
-        browse-url-generic-program "google-chrome")
+        browse-url-generic-program "firef")
   )
 
 ;; Do not write anything past this comment. This is where Emacs will
