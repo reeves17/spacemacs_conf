@@ -86,6 +86,7 @@ This function should only modify configuration layer settings."
      ;; csv is failing authentication
      csv
      emacs-lisp
+     ess
      html
      java
      javascript
@@ -110,8 +111,7 @@ This function should only modify configuration layer settings."
      ;;;;;;;;
      (shell :variables
             shell-default-shell 'ansi-term
-            shell-default-position 'bottom
-            shell-default-height 30)
+            shell-default-position 'right)
 
      ;; Web services
      ;;;;;;;;;;;;;;;
