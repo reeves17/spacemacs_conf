@@ -94,6 +94,7 @@ This function should only modify configuration layer settings."
      markdown
      php
      python
+     rust
      shell-scripts
 
      ;; Version control
